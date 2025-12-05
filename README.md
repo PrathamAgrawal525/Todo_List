@@ -1,16 +1,28 @@
-# React + Vite
+# 📝 Todo List Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built with **React**, featuring unique IDs with `uuid` and icons from `react-icons`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Add, edit, and delete tasks
+- Unique task IDs generated using `uuid`
+- Beautiful icons with `react-icons` (`FaEdit`, `AiFillDelete`)
+- Responsive and clean UI
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- **React** → Frontend library for building user interfaces
+- **react-icons** → Provides a wide range of icons (e.g., `FaEdit`, `AiFillDelete`)
+- **uuid** → Generates unique IDs for tasks
+- **Node.js & npm** → Runtime and package manager for installing dependencies
+- **VS Code** → Development environment with integrated terminal
+- **CSS / Tailwind CSS** → Styling and layout for the UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+todo-list/ ├── src/ │   ├── components/ │   │   ├── TodoItem.js        # Individual task component │   │   └── TodoList.js        # List wrapper for tasks │   ├── App.js                 # Main application logic │   └── index.js               # Entry point ├── package.json               # Dependencies and scripts └── README.md                  # Project documentation
+
+---
